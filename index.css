@@ -93,5 +93,7 @@ body {
 }
 
 .image-row img:hover {
+  border-radius: 7px;
   transform: scale(1.02);
+  transition: all 0.3s ease;
 }
