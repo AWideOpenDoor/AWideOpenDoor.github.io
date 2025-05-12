@@ -91,3 +91,7 @@ body {
   width: 100%;
   z-index: 2;
 }
+
+.image-row img:hover {
+  transform: scale(1.02);
+}
