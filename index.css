@@ -16,6 +16,8 @@ body {
   top: 0;
   z-index: 1000;
   -webkit-mask-image: linear-gradient(180deg, #808080 95%, transparent);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header h1 {
