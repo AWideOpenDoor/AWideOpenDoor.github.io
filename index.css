@@ -94,6 +94,10 @@ body {
   z-index: 2;
 }
 
+.image-row img {
+  transition: all 0.6s ease-in-out;
+}
+
 .image-row img:hover {
   border-radius: 7px;
   transform: scale(1.02);
