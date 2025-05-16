@@ -7,7 +7,7 @@
     <title>A Wide Open Door</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <link rel="stylesheet" href="index.css" />
-
+    <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,21 +25,25 @@
         You have been invited to our Apartment Exposition. This event will be
         held on Saturday May 24th from 5-9 pm. The location is 3802 Rue Sewell.
         We will be sharing the work of Syd Henry Lewis, Lore Schwartz, Kate
-        Sianos, and Katariina Paavola.  small bites and Wine tastings sourced from the Greater
-        Montreal area will be available on a
-        first-come-first-serve basis. Live music will be performed throughout the
-        evening including piano by Audrey Bramlett and a DJ set by Arnaud.
+        Sianos, and Katariina Paavola. small bites and Wine tastings sourced
+        from the Greater Montreal area will be available on a
+        first-come-first-serve basis. Live music will be performed throughout
+        the evening including piano by Audrey Bramlett and a DJ set by Arnaud.
       </p>
 
-      <p>
-        Please avoid sharing this event over social media - if you know anyone
-        that might be interested in our little gathering, let them know next
-        time you see them, or send them the poster or link to this website.
-        To all who want art, wine, food, music, prosperity, a good harvest, and
-        a lucky lotto ticket - we welcome you in peace.
-      </p>
+      <p>RSVP BELOW</p>
 
-      <p>Thank you</p>
+      <form
+        class="typing-container"
+        action="https://formspree.io/f/mdkgbkoe"
+        method="POST">
+        <input type="hidden" name="_subject" value="New submission!" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="text" name="Name" placeholder="Name" required />
+        <input type="email" name="Email" placeholder="Email" required />
+        <button id="submit-button" type="submit">Send</button>
+      </form>
     </div>
 
     <div class="artist-container">
