@@ -69,7 +69,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 22vw;
+  margin-top: 15vw;
   padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
@@ -100,6 +100,69 @@ body {
 
 .image-row img:hover {
   border-radius: 7px;
-  transform: scale(1.02);
-  transition: all 0.6s ease-in-out;
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+}
+
+.typing-container {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 125px;
+  margin-bottom: 50px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.typing-container input[type="text"],
+.typing-container input[type="email"] {
+  width: 35%;
+  border: none;
+  border-bottom: 1.5px solid #282828;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  background-color: transparent;
+  color: #282828;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.typing-container button {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: transparent;
+  color: #282828;
+  border: none;
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+.typing-container button:hover {
+  color: #5f5f5f;
+}
+
+a:link,
+a:visited {
+  color: #111111;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  bottom: 5.6vw;
+}
+
+#submit-button {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease, visibility 1s ease;
+}
+
+#submit-button.visible {
+  opacity: 1;
+  visibility: visible;
 }
